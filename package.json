@@ -1,0 +1,31 @@
+{
+  "name": "orbital",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Second brain inside Grok Bot. One CHIEF, six decks, human approval.",
+  "type": "module",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node --experimental-strip-types src/cli.ts",
+    "cli": "node --experimental-strip-types src/cli.ts",
+    "test": "node --experimental-strip-types --test test/*.test.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/beamnxw/Orbital.git"
+  },
+  "bugs": {
+    "url": "https://github.com/beamnxw/Orbital/issues"
+  },
+  "homepage": "https://github.com/beamnxw/Orbital#readme",
+  "keywords": [
+    "grok",
+    "second-brain",
+    "agents",
+    "cli",
+    "typescript"
+  ]
+}
